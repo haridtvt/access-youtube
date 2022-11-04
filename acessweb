@@ -17,5 +17,5 @@ for i in range(10):
     a = random.randint(30,180)
     time.sleep(a)
 
-    them cmt
+    xoa commnad
 """
