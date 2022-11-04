@@ -1,0 +1,19 @@
+from os import times
+from time import time
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+import time
+import random
+import keyboard
+driver = webdriver.Chrome(ChromeDriverManager().install())
+driver.get('https://www.youtube.com/watch?v=ZdIz4CCZCCo&t=9s')
+
+""""
+for i in range(10):
+    driver.get('https://www.youtube.com/watch?v=ZdIz4CCZCCo&t=9s')
+    time.sleep(5)
+    if i == 0:
+        keyboard.press('space')   
+    a = random.randint(30,180)
+    time.sleep(a)
+"""
